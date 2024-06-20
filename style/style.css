@@ -6,6 +6,15 @@
   list-style: none;
 }
 
+.content{
+  /* background-image: url("../img/image-1.jpg"); */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)),
+                  url("../img/image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .header{
   background-color: black;
   color: white;
@@ -114,7 +123,7 @@
 /*  package section  */
 
 .packages-section{
-  margin: 40px;
+  padding: 40px;
 }
 
 .packages-section h3{
@@ -168,8 +177,6 @@ th, td{
   justify-content: space-between;
   align-items: center;
   padding: 25px;
-
-  border-top: 1px solid #fff;
 }
 
 .footer-p1{
